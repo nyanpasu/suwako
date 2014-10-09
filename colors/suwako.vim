@@ -14,24 +14,24 @@ let g:colors_name = "suwako"
 hi IncSearch guifg=#000000 guibg=#e7e7e7 guisp=#e7e7e7 gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE
 hi WildMenu guifg=#000000 guibg=#a0a0a0 guisp=#a0a0a0 gui=NONE ctermfg=NONE ctermbg=247 cterm=NONE
 hi SignColumn guifg=#d0d0d0 guibg=#3d3d3d guisp=#3d3d3d gui=NONE ctermfg=252 ctermbg=237 cterm=NONE
-hi SpecialComment guifg=#e0c07e guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=180 ctermbg=234 cterm=NONE
+hi SpecialComment guifg=#d7af87 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=180 ctermbg=254 cterm=NONE
 hi Typedef guifg=#f09479 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=216 ctermbg=234 cterm=NONE
-hi Title guifg=#e7e7e7 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=254 ctermbg=254 cterm=NONE
+hi Title guifg=#67797c guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=66 ctermbg=254 cterm=NONE
 hi Folded guifg=#d0d0d0 guibg=#525252 guisp=#525252 gui=NONE ctermfg=252 ctermbg=239 cterm=NONE
 hi PreCondit guifg=#8922ce guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=92 ctermbg=254 cterm=NONE
 hi Include guifg=#d7a0d7 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=182 ctermbg=234 cterm=NONE
-"hi TabLineSel -- no settings --
+hi Float guifg=#008604 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=28 ctermbg=254 cterm=NONE
 hi StatusLineNC guifg=#000000 guibg=#878787 guisp=#878787 gui=NONE ctermfg=NONE ctermbg=102 cterm=NONE
 "hi CTagsMember -- no settings --
-hi NonText guifg=#878787 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=102 ctermbg=234 cterm=NONE
+hi NonText guifg=#878787 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=102 ctermbg=254 cterm=NONE
 "hi CTagsGlobalConstant -- no settings --
 hi DiffText guifg=#d0d0d0 guibg=#00008b guisp=#00008b gui=NONE ctermfg=252 ctermbg=18 cterm=NONE
-hi ErrorMsg guifg=#ffffff guibg=#ee2c2c guisp=#ee2c2c gui=NONE ctermfg=15 ctermbg=13 cterm=NONE
+hi ErrorMsg guifg=#ffffff guibg=#118574 guisp=#118574 gui=NONE ctermfg=15 ctermbg=30 cterm=NONE
 hi Ignore guifg=#373737 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=237 ctermbg=234 cterm=NONE
 hi Debug guifg=#e0c07e guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=180 ctermbg=234 cterm=NONE
 hi PMenuSbar guifg=NONE guibg=#24292e guisp=#24292e gui=NONE ctermfg=NONE ctermbg=236 cterm=NONE
 hi Identifier guifg=#008604 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=28 ctermbg=254 cterm=NONE
-hi SpecialChar guifg=#e0c07e guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=180 ctermbg=234 cterm=NONE
+hi SpecialChar guifg=#e0c07e guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=180 ctermbg=254 cterm=NONE
 hi Conditional guifg=#7d4a2f guibg=#e1e5e8 guisp=#e1e5e8 gui=bold ctermfg=3 ctermbg=254 cterm=bold
 hi StorageClass guifg=#f09479 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=216 ctermbg=234 cterm=NONE
 hi Todo guifg=#bbbb87 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=144 ctermbg=254 cterm=NONE
@@ -44,17 +44,17 @@ hi Label guifg=#f09479 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=216 ctermbg=
 hi PMenuSel guifg=#000000 guibg=#9fb6cd guisp=#9fb6cd gui=NONE ctermfg=NONE ctermbg=146 cterm=NONE
 hi Search guifg=#000000 guibg=#bbbb87 guisp=#bbbb87 gui=NONE ctermfg=NONE ctermbg=144 cterm=NONE
 "hi CTagsGlobalVariable -- no settings --
-hi Delimiter guifg=#e0c07e guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=180 ctermbg=234 cterm=NONE
+hi Delimiter guifg=#e0c07e guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=180 ctermbg=254 cterm=NONE
 hi Statement guifg=#7d4a2f guibg=#e1e5e8 guisp=#e1e5e8 gui=bold ctermfg=3 ctermbg=254 cterm=bold
 "hi SpellRare -- no settings --
 "hi EnumerationValue -- no settings --
-hi Comment guifg=#7c969b guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=109 ctermbg=254 cterm=NONE
-hi Character guifg=#8fe779 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=156 ctermbg=234 cterm=NONE
-"hi Float -- no settings --
-hi Number guifg=#8fe779 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=156 ctermbg=254 cterm=NONE
+hi Comment guifg=#406b6b guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=66 ctermbg=254 cterm=NONE
+hi Character guifg=#8fe779 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=156 ctermbg=254 cterm=NONE
+"hi TabLineSel -- no settings --
+hi Number guifg=#008604 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=28 ctermbg=254 cterm=NONE
 hi Boolean guifg=#7ec0ee guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=117 ctermbg=234 cterm=NONE
 hi Operator guifg=#cb1919 guibg=#e1e5e8 guisp=#e1e5e8 gui=italic ctermfg=1 ctermbg=254 cterm=NONE
-"hi CursorLine -- no settings --
+hi CursorLine guifg=NONE guibg=#aeb8bd guisp=#aeb8bd gui=NONE ctermfg=NONE ctermbg=250 cterm=NONE
 "hi Union -- no settings --
 "hi TabLineFill -- no settings --
 hi Question guifg=#e0c07e guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=180 ctermbg=234 cterm=NONE
@@ -76,15 +76,15 @@ hi Exception guifg=#f09479 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=216 cter
 hi Keyword guifg=#f09479 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=216 ctermbg=254 cterm=NONE
 hi Type guifg=#6730cd guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=98 ctermbg=254 cterm=NONE
 hi DiffChange guifg=#998368 guibg=#105986 guisp=#105986 gui=NONE ctermfg=101 ctermbg=24 cterm=NONE
-hi Cursor guifg=#000000 guibg=#e7e7e7 guisp=#e7e7e7 gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE
+hi Cursor guifg=#000000 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=NONE ctermbg=254 cterm=NONE
 "hi SpellLocal -- no settings --
 hi Error guifg=#ee2c2c guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=13 ctermbg=234 cterm=NONE
 hi PMenu guifg=#000000 guibg=#105986 guisp=#105986 gui=NONE ctermfg=NONE ctermbg=24 cterm=NONE
-hi SpecialKey guifg=#a28b5b guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=137 ctermbg=234 cterm=NONE
+hi SpecialKey guifg=#a28b5b guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=137 ctermbg=254 cterm=NONE
 hi Constant guifg=#118574 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=30 ctermbg=254 cterm=NONE
 "hi DefinedName -- no settings --
 hi Tag guifg=#e0c07e guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=180 ctermbg=234 cterm=NONE
-hi String guifg=#090c0f guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=233 ctermbg=254 cterm=NONE
+hi String guifg=#7c9913 guibg=#e1e5e8 guisp=#e1e5e8 gui=NONE ctermfg=64 ctermbg=254 cterm=NONE
 hi PMenuThumb guifg=NONE guibg=#a7a7a7 guisp=#a7a7a7 gui=NONE ctermfg=NONE ctermbg=248 cterm=NONE
 "hi MatchParen -- no settings --
 "hi LocalVariable -- no settings --
@@ -97,41 +97,38 @@ hi Macro guifg=#d7a0d7 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=182 ctermbg=
 hi Underlined guifg=#1e90ff guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=33 ctermbg=234 cterm=NONE
 hi DiffAdd guifg=#d0d0d0 guibg=#008604 guisp=#008604 gui=NONE ctermfg=252 ctermbg=28 cterm=NONE
 "hi TabLine -- no settings --
-hi cursorim guifg=#404040 guibg=#8b8bff guisp=#8b8bff gui=NONE ctermfg=238 ctermbg=105 cterm=NONE
-"hi clear -- no settings --
-hi pythonbuiltin guifg=#13acff guibg=NONE guisp=NONE gui=NONE ctermfg=39 ctermbg=NONE cterm=NONE
-hi phpstringdouble guifg=#2f74ff guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE
-hi htmltagname guifg=#2f74ff guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE
-hi javascriptstrings guifg=#2f74ff guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE
-hi htmlstring guifg=#2f74ff guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE
-hi phpstringsingle guifg=#2f74ff guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE
 hi mbenormal guifg=#cfbfad guibg=#2e2e3f guisp=#2e2e3f gui=NONE ctermfg=187 ctermbg=237 cterm=NONE
+hi htmlunderlineitalic guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
 hi perlspecialstring guifg=#c080d0 guibg=#404040 guisp=#404040 gui=NONE ctermfg=176 ctermbg=238 cterm=NONE
 hi doxygenspecial guifg=#fdd090 guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
 hi mbechanged guifg=#eeeeee guibg=#2e2e3f guisp=#2e2e3f gui=NONE ctermfg=255 ctermbg=237 cterm=NONE
+hi htmlitalic guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
 hi mbevisiblechanged guifg=#eeeeee guibg=#4e4e8f guisp=#4e4e8f gui=NONE ctermfg=255 ctermbg=60 cterm=NONE
-hi doxygenparam guifg=#fdd090 guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
+hi pythonbuiltin guifg=#13acff guibg=NONE guisp=NONE gui=NONE ctermfg=39 ctermbg=NONE cterm=NONE
+hi phpstringdouble guifg=#2f74ff guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE
 hi doxygensmallspecial guifg=#fdd090 guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
+hi htmlunderline guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
+hi htmlbolditalic guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
 hi doxygenprev guifg=#fdd090 guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
+hi htmltagname guifg=#2f74ff guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE
 hi perlspecialmatch guifg=#c080d0 guibg=#404040 guisp=#404040 gui=NONE ctermfg=176 ctermbg=238 cterm=NONE
+hi javascriptstrings guifg=#2f74ff guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE
 hi cformat guifg=#c080d0 guibg=#404040 guisp=#404040 gui=NONE ctermfg=176 ctermbg=238 cterm=NONE
 hi lcursor guifg=#1b1b1b guibg=#d0d0d0 guisp=#d0d0d0 gui=NONE ctermfg=234 ctermbg=252 cterm=NONE
+hi htmlbold guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
+hi htmlstring guifg=#2f74ff guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE
+hi cursorim guifg=#404040 guibg=#8b8bff guisp=#8b8bff gui=NONE ctermfg=238 ctermbg=105 cterm=NONE
+hi user2 guifg=#7070a0 guibg=#3e3e5e guisp=#3e3e5e gui=NONE ctermfg=103 ctermbg=60 cterm=NONE
 hi doxygenspecialmultilinedesc guifg=#ad600b guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE
+hi htmlboldunderline guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
 hi taglisttagname guifg=#808bed guibg=NONE guisp=NONE gui=NONE ctermfg=105 ctermbg=NONE cterm=NONE
+hi phpstringsingle guifg=#2f74ff guibg=NONE guisp=NONE gui=NONE ctermfg=27 ctermbg=NONE cterm=NONE
 hi doxygenbrief guifg=#fdab60 guibg=NONE guisp=NONE gui=NONE ctermfg=215 ctermbg=NONE cterm=NONE
 hi mbevisiblenormal guifg=#cfcfcd guibg=#4e4e8f guisp=#4e4e8f gui=NONE ctermfg=252 ctermbg=60 cterm=NONE
-hi user2 guifg=#7070a0 guibg=#3e3e5e guisp=#3e3e5e gui=NONE ctermfg=103 ctermbg=60 cterm=NONE
 hi user1 guifg=#00ff8b guibg=#3e3e5e guisp=#3e3e5e gui=NONE ctermfg=48 ctermbg=60 cterm=NONE
 hi doxygenspecialonelinedesc guifg=#ad600b guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE
 hi doxygencomment guifg=#ad7b20 guibg=NONE guisp=NONE gui=NONE ctermfg=130 ctermbg=NONE cterm=NONE
 hi cspecialcharacter guifg=#c080d0 guibg=#404040 guisp=#404040 gui=NONE ctermfg=176 ctermbg=238 cterm=NONE
-hi htmlitalic guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
 hi htmlboldunderlineitalic guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
-hi htmlbolditalic guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
-hi htmlunderlineitalic guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
-hi htmlbold guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
-hi htmlboldunderline guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
-hi htmlunderline guifg=#d0d0d0 guibg=#1b1b1b guisp=#1b1b1b gui=NONE ctermfg=252 ctermbg=234 cterm=NONE
-"hi default -- no settings --
-hi type guifg=#afaf5f guibg=NONE guisp=NONE gui=NONE ctermfg=143 ctermbg=NONE cterm=NONE
-"hi vimhigroup -- no settings --
+"hi clear -- no settings --
+hi doxygenparam guifg=#fdd090 guibg=NONE guisp=NONE gui=NONE ctermfg=222 ctermbg=NONE cterm=NONE
