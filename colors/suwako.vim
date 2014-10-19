@@ -122,7 +122,7 @@ hi DiffAdd                                guifg=#d0d0d0       guibg=s:green     
 "hi TabLine -- no settings --
 hi mbenormal                              guifg=#cfbfad       guibg=#2e2e3f      guisp=#2e2e3f      gui=NONE   ctermfg=187  ctermbg=237  cterm=NONE
 hi htmlunderlineitalic                    guifg=#d0d0d0       guibg=s:background guisp=#1b1b1b      gui=NONE   ctermfg=252  ctermbg=234  cterm=NONE
-hi perlspecialstring                      guifg=#c080d0       guibg=#404040      guisp=#404040      gui=NONE   ctermfg=176  ctermbg=238  cterm=NONE
+hi perlspecialstring                      guifg=#c080d0       guibg=s:background guisp=#404040      gui=NONE   ctermfg=176  ctermbg=238  cterm=NONE
 hi doxygenspecial                         guifg=#fdd090       guibg=NONE         guisp=NONE         gui=NONE   ctermfg=222  ctermbg=NONE cterm=NONE
 hi mbechanged                             guifg=#eeeeee       guibg=#2e2e3f      guisp=#2e2e3f      gui=NONE   ctermfg=255  ctermbg=237  cterm=NONE
 hi htmlitalic                             guifg=#d0d0d0       guibg=s:background guisp=#1b1b1b      gui=NONE   ctermfg=252  ctermbg=234  cterm=NONE
@@ -134,9 +134,9 @@ hi htmlunderline                          guifg=#d0d0d0       guibg=s:background
 hi htmlbolditalic                         guifg=#d0d0d0       guibg=s:background guisp=#1b1b1b      gui=NONE   ctermfg=252  ctermbg=234  cterm=NONE
 hi doxygenprev                            guifg=#fdd090       guibg=NONE         guisp=NONE         gui=NONE   ctermfg=222  ctermbg=NONE cterm=NONE
 hi htmltagname                            guifg=#2f74ff       guibg=NONE         guisp=NONE         gui=NONE   ctermfg=27   ctermbg=NONE cterm=NONE
-hi perlspecialmatch                       guifg=#c080d0       guibg=#404040      guisp=#404040      gui=NONE   ctermfg=176  ctermbg=238  cterm=NONE
+hi perlspecialmatch                       guifg=#c080d0       guibg=s:background guisp=#404040      gui=NONE   ctermfg=176  ctermbg=238  cterm=NONE
 hi javascriptstrings                      guifg=#2f74ff       guibg=NONE         guisp=NONE         gui=NONE   ctermfg=27   ctermbg=NONE cterm=NONE
-hi cformat                                guifg=#c080d0       guibg=#404040      guisp=#404040      gui=NONE   ctermfg=176  ctermbg=238  cterm=NONE
+hi cformat                                guifg=#c080d0       guibg=s:background guisp=#404040      gui=NONE   ctermfg=176  ctermbg=238  cterm=NONE
 hi lcursor                                guifg=#1b1b1b       guibg=#d0d0d0      guisp=#d0d0d0      gui=NONE   ctermfg=234  ctermbg=252  cterm=NONE
 hi htmlbold                               guifg=#d0d0d0       guibg=s:background guisp=#1b1b1b      gui=NONE   ctermfg=252  ctermbg=234  cterm=NONE
 hi htmlstring                             guifg=#2f74ff       guibg=NONE         guisp=NONE         gui=NONE   ctermfg=27   ctermbg=NONE cterm=NONE
@@ -151,7 +151,7 @@ hi mbevisiblenormal                       guifg=#cfcfcd       guibg=#4e4e8f     
 hi user1                                  guifg=#00ff8b       guibg=#3e3e5e      guisp=#3e3e5e      gui=NONE   ctermfg=48   ctermbg=60   cterm=NONE
 hi doxygenspecialonelinedesc              guifg=#ad600b       guibg=NONE         guisp=NONE         gui=NONE   ctermfg=130  ctermbg=NONE cterm=NONE
 hi doxygencomment                         guifg=#ad7b20       guibg=NONE         guisp=NONE         gui=NONE   ctermfg=130  ctermbg=NONE cterm=NONE
-hi cspecialcharacter                      guifg=#c080d0       guibg=#404040      guisp=#404040      gui=NONE   ctermfg=176  ctermbg=238  cterm=NONE
+hi cspecialcharacter                      guifg=#c080d0       guibg=s:background guisp=#404040      gui=NONE   ctermfg=176  ctermbg=238  cterm=NONE
 hi htmlboldunderlineitalic                guifg=#d0d0d0       guibg=s:background guisp=#1b1b1b      gui=NONE   ctermfg=252  ctermbg=234  cterm=NONE
 "hi clear -- no settings --
 hi doxygenparam                           guifg=#fdd090       guibg=NONE         guisp=NONE         gui=NONE   ctermfg=222  ctermbg=NONE cterm=NONE
