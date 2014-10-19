@@ -12,6 +12,7 @@ endif
 set t_Co=256
 let g:colors_name = "suwako"
 
+" 17
 let s:foreground      = "#3e2b62"
 let s:foreground_bold = "#3e2b62"
 let s:cursor          = "#3e2b62"
@@ -62,7 +63,7 @@ hi StorageClass                guifg=s:red          guibg=s:background  guisp=#1
 hi Todo                        guifg=#bbbb87        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=144   ctermbg=254   cterm=NONE
 hi Special                     guifg=#8922ce        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=92    ctermbg=254   cterm=NONE
 hi LineNr                      guifg=#7c969b        guibg=s:magenta     guisp=s:magenta     gui=NONE    ctermfg=109   ctermbg=98    cterm=NONE
-hi StatusLine                  guifg=#000000        guibg=#d0d0d0       guisp=#d0d0d0       gui=NONE    ctermfg=NONE  ctermbg=252   cterm=NONE
+hi StatusLine                  guifg=s:foreground   guibg=#d0d0d0       guisp=#d0d0d0       gui=NONE    ctermfg=17   ctermbg=252   cterm=NONE
 hi Normal                      guifg=s:foreground   guibg=s:background  guisp=s:background  gui=NONE    ctermfg=17    ctermbg=254   cterm=NONE
 hi Label                       guifg=s:red          guibg=s:background  guisp=s:background  gui=NONE    ctermfg=216   ctermbg=254   cterm=NONE
 hi PMenuSel                    guifg=#000000        guibg=#9fb6cd       guisp=#9fb6cd       gui=NONE    ctermfg=NONE  ctermbg=146   cterm=NONE
