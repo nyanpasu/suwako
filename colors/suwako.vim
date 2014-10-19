@@ -62,7 +62,7 @@ hi Special                                guifg=#8922ce       guibg=s:background
 hi LineNr                                 guifg=#7c969b       guibg=s:magenta    guisp=s:magenta    gui=NONE   ctermfg=109  ctermbg=98   cterm=NONE
 hi StatusLine                             guifg=#000000       guibg=#d0d0d0      guisp=#d0d0d0      gui=NONE   ctermfg=NONE ctermbg=252  cterm=NONE
 hi Normal                                 guifg=s:foreground  guibg=s:background guisp=s:background gui=NONE   ctermfg=17   ctermbg=254  cterm=NONE
-hi Label                                  guifg=#f09479       guibg=s:background guisp=#1b1b1b      gui=NONE   ctermfg=216  ctermbg=234  cterm=NONE
+hi Label                                  guifg=#f09479       guibg=s:background guisp=s:background gui=NONE   ctermfg=216  ctermbg=234  cterm=NONE
 "hi CTagsImport -- no settings --
 hi PMenuSel                               guifg=#000000       guibg=#9fb6cd      guisp=#9fb6cd      gui=NONE   ctermfg=NONE ctermbg=146  cterm=NONE
 hi Search                                 guifg=#000000       guibg=#bbbb87      guisp=#bbbb87      gui=NONE   ctermfg=NONE ctermbg=144  cterm=NONE
