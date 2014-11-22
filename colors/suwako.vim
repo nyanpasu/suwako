@@ -39,6 +39,23 @@ let s:lightmagenta = "#8a22ce"
 let s:lightcyan    = "#118574"
 let s:lightwhite   = "#466d74"
 
+let s:tblack        = "0"
+let s:tred          = "1"
+let s:tgreen        = "2"
+let s:tyellow       = "3"
+let s:tblue         = "4"
+let s:tmagenta      = "5"
+let s:tcyan         = "6"
+let s:twhite        = "7"
+let s:tlightblack   = "8"
+let s:tlightred     = "9"
+let s:tlightgreen   = "10"
+let s:tlightyellow  = "11"
+let s:tlightblue    = "12"
+let s:tlightmagenta = "13"
+let s:tlightcyan    = "14"
+let s:tlightwhite   = "15"
+
 hi IncSearch                   guifg=#000000        guibg=#e7e7e7       guisp=#e7e7e7       gui=NONE    ctermfg=NONE  ctermbg=254   cterm=NONE
 hi WildMenu                    guifg=#000000        guibg=#a0a0a0       guisp=#a0a0a0       gui=NONE    ctermfg=NONE  ctermbg=247   cterm=NONE
 hi SignColumn                  guifg=#d0d0d0        guibg=#3d3d3d       guisp=#3d3d3d       gui=NONE    ctermfg=252   ctermbg=237   cterm=NONE
