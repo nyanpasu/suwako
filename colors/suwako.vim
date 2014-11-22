@@ -52,6 +52,7 @@ let s:tlightmagenta = "13"
 let s:tlightcyan    = "14"
 let s:tlightwhite   = "15"
 
+hi Normal                      guifg=s:foreground   guibg=s:background  guisp=s:background  gui=NONE    ctermfg=NONE    ctermbg=NONE   cterm=NONE
 hi IncSearch                   guifg=#000000        guibg=#e7e7e7       guisp=#e7e7e7       gui=NONE    ctermfg=NONE  ctermbg=bg   cterm=NONE
 hi WildMenu                    guifg=#000000        guibg=#a0a0a0       guisp=#a0a0a0       gui=NONE    ctermfg=NONE  ctermbg=247   cterm=NONE
 hi SignColumn                  guifg=#d0d0d0        guibg=#3d3d3d       guisp=#3d3d3d       gui=NONE    ctermfg=252   ctermbg=237   cterm=NONE
@@ -77,7 +78,6 @@ hi Todo                        guifg=#bbbb87        guibg=s:background  guisp=s:
 hi Special                     guifg=#8922ce        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=5    ctermbg=bg   cterm=NONE
 hi LineNr                      guifg=#7c969b        guibg=s:magenta     guisp=s:magenta     gui=NONE    ctermfg=109   ctermbg=13    cterm=NONE
 hi StatusLine                  guifg=s:foreground   guibg=#d0d0d0       guisp=#d0d0d0       gui=NONE    ctermfg=fg    ctermbg=252   cterm=NONE
-hi Normal                      guifg=s:foreground   guibg=s:background  guisp=s:background  gui=NONE    ctermfg=fg    ctermbg=bg   cterm=NONE
 hi Label                       guifg=s:red          guibg=s:background  guisp=s:background  gui=NONE    ctermfg=216   ctermbg=bg   cterm=NONE
 hi PMenuSel                    guifg=#000000        guibg=#9fb6cd       guisp=#9fb6cd       gui=NONE    ctermfg=NONE  ctermbg=146   cterm=NONE
 hi Search                      guifg=#000000        guibg=#bbbb87       guisp=#bbbb87       gui=NONE    ctermfg=NONE  ctermbg=144   cterm=NONE
