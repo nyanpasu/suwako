@@ -24,17 +24,14 @@ let s:red          = "#e22828"
 let s:green        = "#008604"
 let s:yellow       = "#7d4a2f"
 let s:blue         = "#105986"
-" 92
 let s:magenta      = "#6730cd"
 let s:cyan         = "#093932"
 let s:white        = "#2c3f49"
 let s:lightblack   = "#303030"
 let s:lightred     = "#e24444"
-" 28
 let s:lightgreen   = "#398d36"
 let s:lightyellow  = "#998368"
 let s:lightblue    = "#4787b0"
-" 98
 let s:lightmagenta = "#8a22ce"
 let s:lightcyan    = "#118574"
 let s:lightwhite   = "#466d74"
@@ -63,9 +60,9 @@ hi SpecialComment              guifg=#d7af87        guibg=s:background  guisp=s:
 hi Typedef                     guifg=s:red          guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=216   ctermbg=254   cterm=NONE
 hi Title                       guifg=#67797c        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=66    ctermbg=254   cterm=NONE
 hi Folded                      guifg=#d0d0d0        guibg=#525252       guisp=#525252       gui=NONE    ctermfg=252   ctermbg=239   cterm=NONE
-hi PreCondit                   guifg=#8922ce        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=92    ctermbg=254   cterm=NONE
-hi Include                     guifg=s:magenta      guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=92    ctermbg=254   cterm=NONE
-hi Float                       guifg=s:green        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=28    ctermbg=254   cterm=NONE
+hi PreCondit                   guifg=#8922ce        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=5    ctermbg=254   cterm=NONE
+hi Include                     guifg=s:magenta      guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=5    ctermbg=254   cterm=NONE
+hi Float                       guifg=s:green        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=10    ctermbg=254   cterm=NONE
 hi StatusLineNC                guifg=#000000        guibg=#878787       guisp=#878787       gui=NONE    ctermfg=NONE  ctermbg=102   cterm=NONE
 hi NonText                     guifg=#878787        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=102   ctermbg=254   cterm=NONE
 hi DiffText                    guifg=#d0d0d0        guibg=#00008b       guisp=#00008b       gui=NONE    ctermfg=252   ctermbg=18    cterm=NONE
@@ -73,23 +70,23 @@ hi ErrorMsg                    guifg=#ffffff        guibg=s:red         guisp=s:
 hi Ignore                      guifg=#373737        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=237   ctermbg=254   cterm=NONE
 hi Debug                       guifg=#e0c07e        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=180   ctermbg=254   cterm=NONE
 hi PMenuSbar                   guifg=NONE           guibg=#24292e       guisp=#24292e       gui=NONE    ctermfg=NONE  ctermbg=236   cterm=NONE
-hi Identifier                  guifg=s:green        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=28    ctermbg=254   cterm=NONE
+hi Identifier                  guifg=s:green        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=10    ctermbg=254   cterm=NONE
 hi SpecialChar                 guifg=#e0c07e        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=180   ctermbg=254   cterm=NONE
 hi Conditional                 guifg=s:yellow       guibg=s:background  guisp=s:background  gui=bold    ctermfg=3     ctermbg=254   cterm=bold
 hi StorageClass                guifg=s:red          guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=1     ctermbg=254   cterm=NONE
 hi Todo                        guifg=#bbbb87        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=144   ctermbg=254   cterm=NONE
-hi Special                     guifg=#8922ce        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=92    ctermbg=254   cterm=NONE
-hi LineNr                      guifg=#7c969b        guibg=s:magenta     guisp=s:magenta     gui=NONE    ctermfg=109   ctermbg=98    cterm=NONE
+hi Special                     guifg=#8922ce        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=5    ctermbg=254   cterm=NONE
+hi LineNr                      guifg=#7c969b        guibg=s:magenta     guisp=s:magenta     gui=NONE    ctermfg=109   ctermbg=13    cterm=NONE
 hi StatusLine                  guifg=s:foreground   guibg=#d0d0d0       guisp=#d0d0d0       gui=NONE    ctermfg=17    ctermbg=252   cterm=NONE
 hi Normal                      guifg=s:foreground   guibg=s:background  guisp=s:background  gui=NONE    ctermfg=17    ctermbg=254   cterm=NONE
 hi Label                       guifg=s:red          guibg=s:background  guisp=s:background  gui=NONE    ctermfg=216   ctermbg=254   cterm=NONE
 hi PMenuSel                    guifg=#000000        guibg=#9fb6cd       guisp=#9fb6cd       gui=NONE    ctermfg=NONE  ctermbg=146   cterm=NONE
 hi Search                      guifg=#000000        guibg=#bbbb87       guisp=#bbbb87       gui=NONE    ctermfg=NONE  ctermbg=144   cterm=NONE
-hi Delimiter                   guifg=#e0c07e        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=28    ctermbg=254   cterm=NONE
+hi Delimiter                   guifg=#e0c07e        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=10    ctermbg=254   cterm=NONE
 hi Statement                   guifg=s:yellow       guibg=s:background  guisp=s:background  gui=bold    ctermfg=3     ctermbg=254   cterm=bold
 hi Comment                     guifg=#406b6b        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=66    ctermbg=254   cterm=NONE
 hi Character                   guifg=#8fe779        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=156   ctermbg=254   cterm=NONE
-hi Number                      guifg=s:green        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=28    ctermbg=254   cterm=NONE
+hi Number                      guifg=s:green        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=10    ctermbg=254   cterm=NONE
 hi Boolean                     guifg=#7ec0ee        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=117   ctermbg=254   cterm=NONE
 hi Operator                    guifg=s:red          guibg=s:background  guisp=s:background  gui=italic  ctermfg=1     ctermbg=254   cterm=NONE
 hi CursorLine                  guifg=NONE           guibg=#aeb8bd       guisp=#aeb8bd       gui=NONE    ctermfg=NONE  ctermbg=250   cterm=NONE
@@ -97,17 +94,17 @@ hi Question                    guifg=#e0c07e        guibg=s:background  guisp=#1
 hi WarningMsg                  guifg=#ee2c2c        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=13    ctermbg=254   cterm=NONE
 hi VisualNOS                   guifg=#ababab        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=248   ctermbg=254   cterm=NONE
 hi DiffDelete                  guifg=#d0d0d0        guibg=#cb1919       guisp=#cb1919       gui=NONE    ctermfg=252   ctermbg=1     cterm=NONE
-hi ModeMsg                     guifg=#d0d0d0        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=92    ctermbg=254   cterm=NONE
-hi Define                      guifg=s:magenta      guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=92    ctermbg=254   cterm=NONE
+hi ModeMsg                     guifg=#d0d0d0        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=5    ctermbg=254   cterm=NONE
+hi Define                      guifg=s:magenta      guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=5    ctermbg=254   cterm=NONE
 hi Function                    guifg=s:blue         guibg=s:background  guisp=s:background  gui=NONE    ctermfg=24    ctermbg=254   cterm=NONE
 hi FoldColumn                  guifg=#d0d0d0        guibg=#3d3d3d       guisp=#3d3d3d       gui=NONE    ctermfg=252   ctermbg=237   cterm=NONE
-hi PreProc                     guifg=#8922ce        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=92    ctermbg=254   cterm=NONE
+hi PreProc                     guifg=#8922ce        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=5    ctermbg=254   cterm=NONE
 hi Visual                      guifg=#000000        guibg=#ababab       guisp=#ababab       gui=NONE    ctermfg=NONE  ctermbg=248   cterm=NONE
 hi MoreMsg                     guifg=#d0d097        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=187   ctermbg=254   cterm=NONE
 hi VertSplit                   guifg=#000000        guibg=#878787       guisp=#878787       gui=NONE    ctermfg=NONE  ctermbg=102   cterm=NONE
 hi Exception                   guifg=s:red          guibg=s:background  guisp=s:background  gui=NONE    ctermfg=216   ctermbg=254   cterm=NONE
 hi Keyword                     guifg=s:red          guibg=s:background  guisp=s:background  gui=NONE    ctermfg=1     ctermbg=254   cterm=NONE
-hi Type                        guifg=s:magenta      guibg=s:background  guisp=s:background  gui=NONE    ctermfg=92    ctermbg=254   cterm=NONE
+hi Type                        guifg=s:magenta      guibg=s:background  guisp=s:background  gui=NONE    ctermfg=5    ctermbg=254   cterm=NONE
 hi DiffChange                  guifg=s:lightyellow  guibg=s:blue        guisp=s:blue        gui=NONE    ctermfg=101   ctermbg=24    cterm=NONE
 hi Cursor                      guifg=#000000        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=NONE  ctermbg=254   cterm=NONE
 hi Error                       guifg=#ee2c2c        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=13    ctermbg=254   cterm=NONE
@@ -120,9 +117,9 @@ hi PMenuThumb                  guifg=NONE           guibg=#a7a7a7       guisp=#a
 hi Repeat                      guifg=s:lightyellow  guibg=s:background  guisp=s:background  gui=bold    ctermfg=101   ctermbg=254   cterm=bold
 hi Directory                   guifg=#1e90ff        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=33    ctermbg=254   cterm=NONE
 hi Structure                   guifg=s:red          guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=1     ctermbg=254   cterm=NONE
-hi Macro                       guifg=s:magenta      guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=92    ctermbg=254   cterm=NONE
+hi Macro                       guifg=s:magenta      guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=5    ctermbg=254   cterm=NONE
 hi Underlined                  guifg=#1e90ff        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=33    ctermbg=254   cterm=NONE
-hi DiffAdd                     guifg=#d0d0d0        guibg=s:green       guisp=s:green       gui=NONE    ctermfg=252   ctermbg=28    cterm=NONE
+hi DiffAdd                     guifg=#d0d0d0        guibg=s:green       guisp=s:green       gui=NONE    ctermfg=252   ctermbg=10    cterm=NONE
 hi mbenormal                   guifg=#cfbfad        guibg=#2e2e3f       guisp=#2e2e3f       gui=NONE    ctermfg=187   ctermbg=237   cterm=NONE
 hi htmlunderlineitalic         guifg=#d0d0d0        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=252   ctermbg=254   cterm=NONE
 hi perlspecialstring           guifg=#c080d0        guibg=s:background  guisp=#404040       gui=NONE    ctermfg=176   ctermbg=238   cterm=NONE
