@@ -20,23 +20,23 @@ let s:cursor          = "#3e2b62"
 let s:background      = "#e1e5e8"
 
 let s:black        = "#1c1c24"
-let s:lightblack   = "#303030"
 let s:red          = "#e22828"
-let s:lightred     = "#e24444"
-" 28
 let s:green        = "#008604"
-let s:lightgreen   = "#398d36"
 let s:yellow       = "#7d4a2f"
-let s:lightyellow  = "#998368"
 let s:blue         = "#105986"
-let s:lightblue    = "#4787b0"
 " 92
 let s:magenta      = "#6730cd"
+let s:cyan         = "#093932"
+let s:white        = "#2c3f49"
+let s:lightblack   = "#303030"
+let s:lightred     = "#e24444"
+" 28
+let s:lightgreen   = "#398d36"
+let s:lightyellow  = "#998368"
+let s:lightblue    = "#4787b0"
 " 98
 let s:lightmagenta = "#8a22ce"
-let s:cyan         = "#093932"
 let s:lightcyan    = "#118574"
-let s:white        = "#2c3f49"
 let s:lightwhite   = "#466d74"
 
 hi IncSearch                   guifg=#000000        guibg=#e7e7e7       guisp=#e7e7e7       gui=NONE    ctermfg=NONE  ctermbg=254   cterm=NONE
