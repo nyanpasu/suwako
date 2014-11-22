@@ -154,6 +154,11 @@ hi cspecialcharacter           guifg=#c080d0        guibg=s:background  guisp=#4
 hi htmlboldunderlineitalic     guifg=#d0d0d0        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=252   ctermbg=NONE   cterm=NONE
 hi doxygenparam                guifg=#fdd090        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=222   ctermbg=NONE  cterm=NONE
 
+" Plugin
+hi YcmErrorSign             guifg=NONE        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=1   ctermbg=NONE  cterm=NONE
+hi YcmErrorSection             guifg=NONE        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=9   ctermbg=NONE  cterm=italic,underline
+hi YcmWarningSection             guifg=NONE        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=11   ctermbg=NONE  cterm=italic,underline
+
 "hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
 "hi CTagsImport -- no settings --
