@@ -3,6 +3,7 @@
 " TODO Match gui colours to term colours
 " TODO Align shit properly
 " TODO Airline compatibility
+" TODO Add some C specific highlight groups
 
 set background=light
 if version > 580
@@ -75,7 +76,7 @@ hi Ignore                      guifg=#373737        guibg=s:background  guisp=#1
 hi Debug                       guifg=#e0c07e        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=180   ctermbg=NONE   cterm=NONE
 hi PMenuSbar                   guifg=NONE           guibg=#24292e       guisp=#24292e       gui=NONE    ctermfg=NONE  ctermbg=NONE   cterm=NONE
 hi Identifier                  guifg=s:green        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=6    ctermbg=NONE   cterm=NONE
-hi SpecialChar                 guifg=#e0c07e        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=180   ctermbg=NONE   cterm=NONE
+hi SpecialChar                 guifg=#e0c07e        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=9   ctermbg=NONE   cterm=NONE
 hi Conditional                 guifg=s:yellow       guibg=s:background  guisp=s:background  gui=bold    ctermfg=3     ctermbg=NONE   cterm=bold
 hi StorageClass                guifg=s:red          guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=5     ctermbg=NONE   cterm=bold
 hi Todo                        guifg=#bbbb87        guibg=s:background  guisp=s:background  gui=NONE    ctermfg=144   ctermbg=NONE   cterm=NONE
@@ -125,7 +126,6 @@ hi Underlined                  guifg=#1e90ff        guibg=s:background  guisp=#1
 hi DiffAdd                     guifg=#d0d0d0        guibg=s:green       guisp=s:green       gui=NONE    ctermfg=252   ctermbg=10     cterm=NONE
 hi mbenormal                   guifg=#cfbfad        guibg=#2e2e3f       guisp=#2e2e3f       gui=NONE    ctermfg=187   ctermbg=237   cterm=NONE
 hi htmlunderlineitalic         guifg=#d0d0d0        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=252   ctermbg=NONE   cterm=NONE
-hi perlspecialstring           guifg=#c080d0        guibg=s:background  guisp=#404040       gui=NONE    ctermfg=176   ctermbg=238   cterm=NONE
 hi doxygenspecial              guifg=#fdd090        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=222   ctermbg=NONE  cterm=NONE
 hi mbechanged                  guifg=#eeeeee        guibg=#2e2e3f       guisp=#2e2e3f       gui=NONE    ctermfg=255   ctermbg=237   cterm=NONE
 hi htmlitalic                  guifg=#d0d0d0        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=252   ctermbg=NONE   cterm=NONE
@@ -137,9 +137,7 @@ hi htmlunderline               guifg=#d0d0d0        guibg=s:background  guisp=#1
 hi htmlbolditalic              guifg=#d0d0d0        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=252   ctermbg=NONE   cterm=NONE
 hi doxygenprev                 guifg=#fdd090        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=222   ctermbg=NONE  cterm=NONE
 hi htmltagname                 guifg=#2f74ff        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=27    ctermbg=NONE  cterm=NONE
-hi perlspecialmatch            guifg=#c080d0        guibg=s:background  guisp=#404040       gui=NONE    ctermfg=176   ctermbg=238   cterm=NONE
 hi javascriptstrings           guifg=#2f74ff        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=27    ctermbg=NONE  cterm=NONE
-hi cformat                     guifg=#c080d0        guibg=s:background  guisp=#404040       gui=NONE    ctermfg=176   ctermbg=238   cterm=NONE
 hi lcursor                     guifg=#1b1b1b        guibg=#d0d0d0       guisp=#d0d0d0       gui=NONE    ctermfg=234   ctermbg=252   cterm=NONE
 hi htmlbold                    guifg=#d0d0d0        guibg=s:background  guisp=#1b1b1b       gui=NONE    ctermfg=252   ctermbg=NONE   cterm=NONE
 hi htmlstring                  guifg=#2f74ff        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=27    ctermbg=NONE  cterm=NONE
