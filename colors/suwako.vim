@@ -150,7 +150,6 @@ hi taglisttagname              guifg=#808bed        guibg=NONE          guisp=NO
 hi phpstringsingle             guifg=#2f74ff        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=27    ctermbg=NONE  cterm=NONE
 hi mbevisiblenormal            guifg=#cfcfcd        guibg=#4e4e8f       guisp=#4e4e8f       gui=NONE    ctermfg=252   ctermbg=60    cterm=NONE
 hi user1                       guifg=#00ff8b        guibg=#3e3e5e       guisp=#3e3e5e       gui=NONE    ctermfg=48    ctermbg=60    cterm=NONE
-hi cspecialcharacter           guifg=#c080d0        guibg=s:background  guisp=#404040       gui=NONE    ctermfg=176   ctermbg=238   cterm=NONE
 
 " Plugins colours
 hi YcmErrorSign             guifg=NONE        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=1   ctermbg=NONE  cterm=NONE
