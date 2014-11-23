@@ -151,8 +151,9 @@ hi user1                       guifg=#00ff8b        guibg=#3e3e5e       guisp=#3
 
 " Plugins colours
 hi YcmErrorSign             guifg=NONE        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=1   ctermbg=NONE  cterm=NONE
+hi YcmWarningSign             guifg=NONE        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=11   ctermbg=NONE  cterm=NONE
 hi YcmErrorSection             guifg=NONE        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=9   ctermbg=NONE  cterm=italic,underline
-hi YcmWarningSection             guifg=NONE        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=11   ctermbg=NONE  cterm=italic,underline
+hi YcmWarningSection             guifg=NONE        guibg=NONE          guisp=NONE          gui=NONE    ctermfg=15   ctermbg=NONE  cterm=italic
 
 "hi CTagsMember -- no settings --
 "hi CTagsGlobalConstant -- no settings --
